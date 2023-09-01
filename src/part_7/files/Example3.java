@@ -13,5 +13,6 @@ public class Example3 {
         System.out.println(file.isFile());
         System.out.println(file.isDirectory());
         System.out.println(file.exists());
+        Arrays.stream(file.list()).spliterator().forEachRemaining(item -> System.out.println(item));
     }
 }
