@@ -1,0 +1,19 @@
+{
+  "field" : 1,
+  "field2" : "2",
+  "field3" : [1, 2, 3, "2", true, null, {}],
+  "field4" : {
+    "field" : {
+      "field2" : [
+        {
+          "field" : 1,
+          "field2" : 3
+        },
+        {
+          "field" : 1,
+          "field1" : 3
+        }
+      ]
+    }
+  }
+}
